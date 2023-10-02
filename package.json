@@ -1,11 +1,20 @@
 {
   "name": "npm-paket",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "semantic-release-cli": "^5.4.4",
+    "semantic-release": "^22.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onursabanoglu/npm-paket.git"
+  }
 }
