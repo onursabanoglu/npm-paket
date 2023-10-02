@@ -16,5 +16,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/onursabanoglu/npm-paket.git"
-  }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
 }
